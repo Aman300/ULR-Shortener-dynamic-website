@@ -56,6 +56,17 @@ app.get("/url", function (req, res) {
     })
     })
 
+    app.get("/url/del", function (req, res) {   
+      urlModel.deleteMany({}, function (err, allDetails) {
+          if (err) {
+              console.log(err);
+          } else {
+               res.redirect('/')
+             // res.send({shortUrls: allDetails})
+          }
+      })
+      })
+
 
 app.get('/',(req,res) =>{
     res.sendFile(__dirname + '/public/index.html')

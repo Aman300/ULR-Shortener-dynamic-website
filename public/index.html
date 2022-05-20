@@ -22,7 +22,7 @@
   <body>
       <div class="jumbotron jumbotron-fluid m-0"  style="background-color: rgb(173,195,255)">
           <div class="container text-center">
-              <h1 class="w-100">Aman <span>URL</span> Shortner</h1>            
+            <h1 class="w-100">Aman <span>URL</span> Shortener <span> function-Up </span></h1>             
           </div>
       </div>
       
@@ -37,13 +37,14 @@
             <div class="card">
                 <div class="card-body">
                     <form action="/" method="post" target="_blank">
-                        <label for="inputName">Type your URL</label>
-                        <input type="text" class="form-control is-valid form-group" placeholder="https://www.yourUrl.com" name="longUrl"
+                        <label for="inputName">Enter your URL link</label>
+                        <input type="url" class="form-control is-valid form-group" placeholder="https://example.com"
+                        pattern="https://.*"size="30" name="longUrl"
                             id="inputName" required>
                         <div class="invalid-feedback">
                             Validation message
                         </div>
-                        <button type="submit" class="btn btn-lg form-control text-white" style="background-color: rgb(236,92,98);">send</button>
+                        <button type="submit" class="btn btn-lg form-control text-white" style="background-color: rgb(236,92,98);">Shorten URL</button>
                         <br><br>
                             <img src="https://media1.giphy.com/media/cTEqKgli7xemh67QJ2/giphy.gif" style="height: 40px;">
                         </div>
