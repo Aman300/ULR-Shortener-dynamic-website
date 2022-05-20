@@ -1,0 +1,31 @@
+{
+  "name": "project-4-group-30",
+  "version": "1.0.0",
+  "description": "Group 30 4th project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aman300/project-4-group-30.git"
+  },
+  "author": "Aman & Sonu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aman300/project-4-group-30/issues"
+  },
+  "homepage": "https://github.com/Aman300/project-4-group-30#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16",
+    "redis": "^3.1.2",
+    "short-id": "^0.1.0-1",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
